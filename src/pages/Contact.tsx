@@ -74,7 +74,7 @@ const Contact = () => {
               <i className="fas fa-envelope contact-icon"></i>
               <div>
                 <h3>Email</h3>
-                <p>info@cyberstrategicconsulting.com</p>
+                <p>info@cybersc.ca</p>
               </div>
             </div>
           </div>
