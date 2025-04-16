@@ -1,0 +1,93 @@
+import "./Services.css"
+
+const Services = () => {
+  return (
+    <div className="services-page">
+      <section className="services-hero">
+        <h1>Our Services</h1>
+        <p>
+          Comprehensive cybersecurity solutions tailored to protect your organization's digital assets and ensure
+          compliance with industry regulations.
+        </p>
+      </section>
+
+      <section className="services-grid">
+        <div className="service-card">
+          <div className="service-icon">
+            <i className="fas fa-shield-alt"></i>
+          </div>
+          <h3>Information Security Training</h3>
+          <p>
+            Comprehensive training programs designed to educate your team on the latest information security threats and
+            best practices for prevention and response.
+          </p>
+        </div>
+        <div className="service-card">
+          <div className="service-icon">
+            <i className="fas fa-user-shield"></i>
+          </div>
+          <h3>Data Privacy Training</h3>
+          <p>
+            Specialized training on data privacy regulations such as GDPR, CCPA, and industry-specific requirements to
+            ensure your organization maintains compliance.
+          </p>
+        </div>
+        <div className="service-card">
+          <div className="service-icon">
+            <i className="fas fa-laptop-code"></i>
+          </div>
+          <h3>Cloud Security Workshops</h3>
+          <p>
+            Hands-on workshops focused on securing cloud environments, including AWS, Azure, and Google Cloud, with
+            practical implementation of security controls.
+          </p>
+        </div>
+        <div className="service-card">
+          <div className="service-icon">
+            <i className="fas fa-network-wired"></i>
+          </div>
+          <h3>Network Security Workshops</h3>
+          <p>
+            Technical workshops covering network security architecture, threat detection, and implementation of robust
+            security controls for your infrastructure.
+          </p>
+        </div>
+        <div className="service-card">
+          <div className="service-icon">
+            <i className="fas fa-user-lock"></i>
+          </div>
+          <h3>Data Privacy Compliance</h3>
+          <p>
+            Expert guidance on implementing data privacy frameworks and ensuring ongoing compliance with evolving
+            regulations across different jurisdictions.
+          </p>
+        </div>
+        <div className="service-card">
+          <div className="service-icon">
+            <i className="fas fa-clipboard-check"></i>
+          </div>
+          <h3>Audit Preparation</h3>
+          <p>
+            Comprehensive preparation services for security audits, including gap analysis, remediation planning, and
+            documentation to ensure successful outcomes.
+          </p>
+        </div>
+      </section>
+
+      <section className="custom-solutions">
+        <div className="custom-solutions-content">
+          <h2>Need a Customized Solution?</h2>
+          <p>
+            Our team of experts can develop tailored cybersecurity and data privacy solutions specific to your
+            organization's unique requirements and challenges.
+          </p>
+          <a href="/contact" className="btn btn-primary">
+            Contact Us for Custom Solutions
+          </a>
+        </div>
+      </section>
+    </div>
+  )
+}
+
+export default Services
