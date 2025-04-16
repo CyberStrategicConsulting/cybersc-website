@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/cybersc-website/static/css/main.f855e6bc.css",
-    "main.js": "/cybersc-website/static/js/main.8181f00e.js",
-    "static/js/453.17abae63.chunk.js": "/cybersc-website/static/js/453.17abae63.chunk.js",
-    "static/media/logo.svg": "/cybersc-website/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/cybersc-website/index.html",
-    "main.f855e6bc.css.map": "/cybersc-website/static/css/main.f855e6bc.css.map",
-    "main.8181f00e.js.map": "/cybersc-website/static/js/main.8181f00e.js.map",
-    "453.17abae63.chunk.js.map": "/cybersc-website/static/js/453.17abae63.chunk.js.map"
+    "main.css": "/static/css/main.f855e6bc.css",
+    "main.js": "/static/js/main.df1fccf3.js",
+    "static/js/453.17abae63.chunk.js": "/static/js/453.17abae63.chunk.js",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/index.html",
+    "main.f855e6bc.css.map": "/static/css/main.f855e6bc.css.map",
+    "main.df1fccf3.js.map": "/static/js/main.df1fccf3.js.map",
+    "453.17abae63.chunk.js.map": "/static/js/453.17abae63.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.8181f00e.js"
+    "static/js/main.df1fccf3.js"
   ]
 }
