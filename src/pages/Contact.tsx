@@ -120,7 +120,7 @@ const Contact = () => {
                   <option value="Information Security Training">Information Security Training</option>
                   <option value="Data Privacy Training">Data Privacy Training</option>
                   <option value="Cyber Security Workshops">Cyber Security Workshops</option>
-                  <option value="Audit Preparation">Audit Preparation</option>
+                  <option value="Advanced Audit Preparation">Advanced Audit Preparation</option>
                   <option value="Other">Other</option>
                 </select>
               </div>
