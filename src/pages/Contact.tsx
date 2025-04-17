@@ -5,16 +5,16 @@ import emailjs from "emailjs-com"
 import "./Contact.css"
 
 interface FormData {
-  sender_name: string
-  sender_email: string
+  name: string
+  email: string
   subject: string
   message: string
 }
 
 const Contact = () => {
   const [formData, setFormData] = useState<FormData>({
-    sender_name: "",
-    sender_email: "",
+    name: "",
+    email: "",
     subject: "",
     message: "",
   })
@@ -37,8 +37,8 @@ const Contact = () => {
         "service_4339ehr",
         "template_5lbjewk",
         {
-          from_name: formData.sender_name,
-          from_email: formData.sender_email,
+          from_name: formData.name,
+          from_email: formData.email,
           subject: formData.subject,
           message: formData.message,
         },
@@ -49,8 +49,8 @@ const Contact = () => {
           console.log("Email sent successfully:", result.text)
           setFormSubmitted(true)
           setFormData({
-            sender_name: "",
-            sender_email: "",
+            name: "",
+            email: "",
             subject: "",
             message: "",
           })
@@ -107,11 +107,11 @@ const Contact = () => {
             <form className="contact-form" onSubmit={handleSubmit}>
               <div className="form-group">
                 <label htmlFor="name">Name</label>
-                <input type="text" id="name" name="name" value={formData.sender_name} onChange={handleChange} required />
+                <input type="text" id="name" name="name" value={formData.name} onChange={handleChange} required />
               </div>
               <div className="form-group">
                 <label htmlFor="email">Email</label>
-                <input type="email" id="email" name="email" value={formData.sender_email} onChange={handleChange} required />
+                <input type="email" id="email" name="email" value={formData.email} onChange={handleChange} required />
               </div>
               <div className="form-group">
                 <label htmlFor="subject">Subject</label>
