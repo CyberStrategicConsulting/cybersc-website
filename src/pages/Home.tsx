@@ -6,10 +6,10 @@ const Home = () => {
     <div className="home">
       <section className="hero">
         <div className="hero-content">
-          <h1>Securing Your Digital Future</h1>
+          <h1>Empowering You To Securing Your Digital Footprint</h1>
           <p>
-            Cyber Strategic Consulting provides expert cybersecurity solutions to protect your organization's most
-            valuable assets.
+          Cyber Strategic Consulting provides expert **cybersecurity training solutions**,
+          empowering your organization to secure its most valuable assets—its **personnel**.
           </p>
           <div className="hero-btns">
             <Link to="/services" className="btn btn-primary">
@@ -25,7 +25,8 @@ const Home = () => {
       <section className="featured-services">
         <div className="section-heading">
           <h2>Our Services</h2>
-          <p>Comprehensive cybersecurity solutions tailored to your needs</p>
+          <p>Customized cybersecurity training that equips your team with the essentials and prepares them
+            for advanced services like penetration tests and data audits—ensuring you’re audit‑ready.</p>
         </div>
         <div className="services-container">
           <div className="service-card">
@@ -52,10 +53,10 @@ const Home = () => {
             <div className="service-icon">
               <i className="fas fa-user-lock"></i>
             </div>
-            <h3>Data Privacy & Audit Preparation</h3>
+            <h3>Advanced Services Audit Preparation</h3>
             <p>
-              Expert guidance to ensure your organization is prepared for security audits and compliant with data
-              privacy regulations.
+              Expert guidance to ensure your organization is prepared for advanced security and data privacy audits,
+              such as Penetration Tests, CIS Benchmarks and Law 25 (Qc).
             </p>
           </div>
         </div>

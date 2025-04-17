@@ -46,7 +46,7 @@ const Contact = () => {
       <section className="contact-hero">
         <h1>Contact Us</h1>
         <p>
-          Have questions about our services or want to discuss your cybersecurity needs? Reach out to our team of
+          Have questions about our training services or want to discuss your cybersecurity needs? Reach out to our team of
           experts.
         </p>
       </section>
@@ -60,14 +60,7 @@ const Contact = () => {
               <div>
                 <h3>Our Location</h3>
                 <p>123 Cyber Security Street</p>
-                <p>Tech City, TC 12345</p>
-              </div>
-            </div>
-            <div className="contact-item">
-              <i className="fas fa-phone contact-icon"></i>
-              <div>
-                <h3>Phone</h3>
-                <p>(123) 456-7890</p>
+                <p>Montreal, QC 12345</p>
               </div>
             </div>
             <div className="contact-item">

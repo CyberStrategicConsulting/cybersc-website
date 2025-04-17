@@ -6,7 +6,7 @@ const AboutUs = () => {
       <section className="about-hero">
         <h1>About Cyber Strategic Consulting</h1>
         <p>
-          Dedicated to providing expert cybersecurity solutions and strategic guidance to organizations of all sizes.
+          Dedicated to providing expert cybersecurity training solutions and strategic guidance to organizations of all sizes.
         </p>
       </section>
 
@@ -28,7 +28,7 @@ const AboutUs = () => {
             <i className="fas fa-shield-alt value-icon"></i>
             <h3>Excellence</h3>
             <p>
-              We are committed to delivering the highest quality cybersecurity services and solutions that exceed
+              We are committed to delivering the highest quality cybersecurity training services and solutions that exceed
               industry standards and client expectations.
             </p>
           </div>
@@ -44,8 +44,8 @@ const AboutUs = () => {
             <i className="fas fa-lightbulb value-icon"></i>
             <h3>Innovation</h3>
             <p>
-              We continuously evolve our approaches and methodologies to stay ahead of emerging threats and provide
-              cutting-edge cybersecurity solutions.
+              We continuously evolve our approaches and methodologies to stay ahead of emerging threats to provide
+              cutting-edge cybersecurity trianing solutions.
             </p>
           </div>
         </div>
@@ -61,14 +61,14 @@ const AboutUs = () => {
           <div className="expertise-item">
             <h3>Certified Information Security Professionals</h3>
             <p>
-              Our team holds industry-recognized certifications including CISSP, CISM, and CEH, ensuring the highest
+              Our team holds industry-recognized certifications including CISSP, CISM, and OSCP, ensuring the highest
               level of expertise in cybersecurity.
             </p>
           </div>
           <div className="expertise-item">
             <h3>Data Privacy Specialists</h3>
             <p>
-              Experts in global data privacy regulations including GDPR, CCPA, and industry-specific compliance
+              Experts in global data privacy regulations including GDPR, Law 25, and industry-specific compliance
               requirements.
             </p>
           </div>
@@ -95,7 +95,7 @@ const AboutUs = () => {
               <span className="step-number">1</span>
               <div className="step-content">
                 <h3>Assess</h3>
-                <p>Thorough evaluation of current security posture and identification of vulnerabilities</p>
+                <p>Comprehensive security posture assessment within a defined scope</p>
               </div>
             </div>
             <div className="step">
@@ -110,13 +110,6 @@ const AboutUs = () => {
               <div className="step-content">
                 <h3>Implement</h3>
                 <p>Execution of security measures and training programs</p>
-              </div>
-            </div>
-            <div className="step">
-              <span className="step-number">4</span>
-              <div className="step-content">
-                <h3>Monitor</h3>
-                <p>Continuous evaluation and improvement of security measures</p>
               </div>
             </div>
           </div>

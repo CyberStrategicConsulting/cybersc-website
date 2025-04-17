@@ -6,8 +6,8 @@ const Services = () => {
       <section className="services-hero">
         <h1>Our Services</h1>
         <p>
-          Comprehensive cybersecurity solutions tailored to protect your organization's digital assets and ensure
-          compliance with industry regulations.
+        Tailored cybersecurity training that empowers your personnel to safeguard digital assets, maintain regulatory compliance,
+        and prepare for advanced audit services like penetration tests and data privacy audits.
         </p>
       </section>
 
@@ -28,7 +28,7 @@ const Services = () => {
           </div>
           <h3>Data Privacy Training</h3>
           <p>
-            Specialized training on data privacy regulations such as GDPR, CCPA, and industry-specific requirements to
+            Specialized training on data privacy regulations such as Law 25, GDPR, and industry-specific requirements to
             ensure your organization maintains compliance.
           </p>
         </div>
@@ -49,7 +49,7 @@ const Services = () => {
           <h3>Network Security Workshops</h3>
           <p>
             Technical workshops covering network security architecture, threat detection, and implementation of robust
-            security controls for your infrastructure.
+            security controls for your infrastructure (e.g. DiD, WAF, HoneyPots).
           </p>
         </div>
         <div className="service-card">
@@ -66,10 +66,9 @@ const Services = () => {
           <div className="service-icon">
             <i className="fas fa-clipboard-check"></i>
           </div>
-          <h3>Audit Preparation</h3>
+          <h3>Advanced Audit Preparation</h3>
           <p>
-            Comprehensive preparation services for security audits, including gap analysis, remediation planning, and
-            documentation to ensure successful outcomes.
+            Comprehensive preparation services for security audits, including gap analysis and remediation planning.
           </p>
         </div>
       </section>
