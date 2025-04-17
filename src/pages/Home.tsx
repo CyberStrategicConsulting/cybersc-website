@@ -8,8 +8,8 @@ const Home = () => {
         <div className="hero-content">
           <h1>Empowering You To Securing Your Digital Footprint</h1>
           <p>
-          Cyber Strategic Consulting provides expert **cybersecurity training solutions**,
-          empowering your organization to secure its most valuable assets—its **personnel**.
+          Cyber Strategic Consulting provides expert cybersecurity training solutions,
+          empowering your organization to secure its most valuable assets—its personnel.
           </p>
           <div className="hero-btns">
             <Link to="/services" className="btn btn-primary">
