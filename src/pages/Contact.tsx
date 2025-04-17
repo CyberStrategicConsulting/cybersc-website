@@ -1,6 +1,7 @@
 "use client"
 
 import { useState, type FormEvent, type ChangeEvent } from "react"
+import emailjs from "emailjs-com"
 import "./Contact.css"
 
 interface FormData {
@@ -30,15 +31,34 @@ const Contact = () => {
 
   const handleSubmit = (e: FormEvent) => {
     e.preventDefault()
-    console.log("Form submitted:", formData)
-    // Here you would typically send the form data to your backend
-    setFormSubmitted(true)
-    setFormData({
-      name: "",
-      email: "",
-      subject: "",
-      message: "",
-    })
+
+    emailjs
+      .send(
+        "service_4339ehr",
+        "template_5lbjewk",
+        {
+          from_name: formData.name,
+          from_email: formData.email,
+          subject: formData.subject,
+          message: formData.message,
+        },
+        "38lGUhl1BUGDhzOvp"
+      )
+      .then(
+        (result) => {
+          console.log("Email sent successfully:", result.text)
+          setFormSubmitted(true)
+          setFormData({
+            name: "",
+            email: "",
+            subject: "",
+            message: "",
+          })
+        },
+        (error) => {
+          console.error("Failed to send email:", error.text)
+        }
+      )
   }
 
   return (
