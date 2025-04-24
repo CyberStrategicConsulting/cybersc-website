@@ -26,7 +26,7 @@ const Home = () => {
         <div className="section-heading">
           <h2>Our Services</h2>
           <p>Customized cybersecurity training that equips your team with the essentials and prepares them
-            for advanced services like penetration tests and data audits—ensuring you’re audit‑ready.</p>
+            for advanced services like data audits—ensuring you’re audit‑ready.</p>
         </div>
         <div className="services-container">
           <div className="service-card">
@@ -56,7 +56,7 @@ const Home = () => {
             <h3>Advanced Services Audit Preparation</h3>
             <p>
               Expert guidance to ensure your organization is prepared for advanced security and data privacy audits,
-              such as Penetration Tests, CIS Benchmarks and Law 25 (Qc).
+              such as Law 25 (Qc) Audits.
             </p>
           </div>
         </div>

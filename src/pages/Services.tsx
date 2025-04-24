@@ -7,7 +7,7 @@ const Services = () => {
         <h1>Our Services</h1>
         <p>
         Tailored cybersecurity training that empowers your personnel to safeguard digital assets, maintain regulatory compliance,
-        and prepare for advanced audit services like penetration tests and data privacy audits.
+        and prepare for advanced audit services like data privacy audits.
         </p>
       </section>
 
