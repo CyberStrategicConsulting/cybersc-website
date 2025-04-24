@@ -79,8 +79,8 @@ const Contact = () => {
               <i className="fas fa-map-marker-alt contact-icon"></i>
               <div>
                 <h3>Our Location</h3>
-                <p>123 Cyber Security Street</p>
-                <p>Montreal, QC 12345</p>
+                <p>1155 Metcalfe, #1500</p>
+                <p>Montreal, QC H3B 2V6</p>
               </div>
             </div>
             <div className="contact-item">
