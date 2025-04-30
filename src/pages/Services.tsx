@@ -80,7 +80,7 @@ const Services = () => {
             Our team of experts can develop tailored cybersecurity and data privacy solutions specific to your
             organization's unique requirements and challenges.
           </p>
-          <a href="/contact" className="btn btn-primary">
+          <a href="/#/contact" className="btn btn-primary">
             Contact Us for Custom Solutions
           </a>
         </div>
