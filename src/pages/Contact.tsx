@@ -1,6 +1,7 @@
 "use client"
 
 import { useState, type FormEvent, type ChangeEvent } from "react"
+import { useTranslation } from "react-i18next"
 import emailjs from "emailjs-com"
 import "./Contact.css"
 
@@ -12,6 +13,7 @@ interface FormData {
 }
 
 const Contact = () => {
+  const { t } = useTranslation()
   const [formData, setFormData] = useState<FormData>({
     name: "",
     email: "",
@@ -42,7 +44,7 @@ const Contact = () => {
           subject: formData.subject,
           message: formData.message,
         },
-        "38lGUhl1BUGDhzOvp"
+        "38lGUhl1BUGDhzOvp",
       )
       .then(
         (result) => {
@@ -57,75 +59,72 @@ const Contact = () => {
         },
         (error) => {
           console.error("Failed to send email:", error.text)
-        }
+        },
       )
   }
 
   return (
     <div className="contact-page">
       <section className="contact-hero">
-        <h1>Contact Us</h1>
-        <p>
-          Have questions about our training services or want to discuss your cybersecurity needs? Reach out to our team of
-          experts.
-        </p>
+        <h1>{t("contact.hero.title")}</h1>
+        <p>{t("contact.hero.subtitle")}</p>
       </section>
 
       <section className="contact-content">
         <div className="contact-info">
-          <h2>Get in Touch</h2>
+          <h2>{t("contact.getInTouch")}</h2>
           <div className="contact-details">
             <div className="contact-item">
               <i className="fas fa-map-marker-alt contact-icon"></i>
               <div>
-                <h3>Our Location</h3>
-                <p>1155 Metcalfe, #1500</p>
-                <p>Montreal, QC H3B 2V6</p>
+                <h3>{t("contact.location.title")}</h3>
+                <p>{t("contact.location.address1")}</p>
+                <p>{t("contact.location.address2")}</p>
               </div>
             </div>
             <div className="contact-item">
               <i className="fas fa-envelope contact-icon"></i>
               <div>
-                <h3>Email</h3>
-                <p>info@cybersc.ca</p>
+                <h3>{t("contact.email.title")}</h3>
+                <p>{t("contact.email.address")}</p>
               </div>
             </div>
           </div>
         </div>
 
         <div className="contact-form-container">
-          <h2>Send Us a Message</h2>
+          <h2>{t("contact.form.title")}</h2>
           {formSubmitted ? (
             <div className="form-success">
-              <h3>Thank you for your message!</h3>
-              <p>We'll get back to you as soon as possible.</p>
+              <h3>{t("contact.form.success.title")}</h3>
+              <p>{t("contact.form.success.message")}</p>
               <button className="btn btn-primary" onClick={() => setFormSubmitted(false)}>
-                Send Another Message
+                {t("contact.form.success.button")}
               </button>
             </div>
           ) : (
             <form className="contact-form" onSubmit={handleSubmit}>
               <div className="form-group">
-                <label htmlFor="name">Name</label>
+                <label htmlFor="name">{t("contact.form.name")}</label>
                 <input type="text" id="name" name="name" value={formData.name} onChange={handleChange} required />
               </div>
               <div className="form-group">
-                <label htmlFor="email">Email</label>
+                <label htmlFor="email">{t("contact.form.email")}</label>
                 <input type="email" id="email" name="email" value={formData.email} onChange={handleChange} required />
               </div>
               <div className="form-group">
-                <label htmlFor="subject">Subject</label>
+                <label htmlFor="subject">{t("contact.form.subject")}</label>
                 <select id="subject" name="subject" value={formData.subject} onChange={handleChange} required>
-                  <option value="">Select a subject</option>
-                  <option value="Information Security Training">Information Security Training</option>
-                  <option value="Data Privacy Training">Data Privacy Training</option>
-                  <option value="Cyber Security Workshops">Cyber Security Workshops</option>
-                  <option value="Advanced Audit Preparation">Advanced Audit Preparation</option>
-                  <option value="Other">Other</option>
+                  <option value="">{t("contact.form.selectSubject")}</option>
+                  <option value="Information Security Training">{t("contact.form.subjects.infoSecurity")}</option>
+                  <option value="Data Privacy Training">{t("contact.form.subjects.dataPrivacy")}</option>
+                  <option value="Cyber Security Workshops">{t("contact.form.subjects.workshops")}</option>
+                  <option value="Advanced Audit Preparation">{t("contact.form.subjects.auditPrep")}</option>
+                  <option value="Other">{t("contact.form.subjects.other")}</option>
                 </select>
               </div>
               <div className="form-group">
-                <label htmlFor="message">Message</label>
+                <label htmlFor="message">{t("contact.form.message")}</label>
                 <textarea
                   id="message"
                   name="message"
@@ -136,7 +135,7 @@ const Contact = () => {
                 ></textarea>
               </div>
               <button type="submit" className="btn btn-primary">
-                Send Message
+                {t("contact.form.send")}
               </button>
             </form>
           )}

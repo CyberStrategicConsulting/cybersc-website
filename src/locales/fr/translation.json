@@ -1,0 +1,176 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "services": "Services",
+    "about": "À Propos",
+    "contact": "Contact"
+  },
+  "home": {
+    "hero": {
+      "title": "Vous Autonomiser Pour Sécuriser Votre Empreinte Numérique",
+      "subtitle": "Cyber Strategic Consulting fournit des solutions expertes de formation en cybersécurité, permettant à votre organisation de sécuriser ses actifs les plus précieux—son personnel.",
+      "ourServices": "Nos Services",
+      "contactUs": "Nous Contacter"
+    },
+    "services": {
+      "title": "Nos Services",
+      "subtitle": "Formation en cybersécurité personnalisée qui équipe votre équipe avec les essentiels et les prépare pour des services avancés comme les audits de données—vous assurant d'être prêt pour les audits.",
+      "infoSecurity": {
+        "title": "Formation en Sécurité de l'Information et Confidentialité des Données",
+        "description": "Programmes de formation complets pour éduquer votre équipe sur les meilleures pratiques de sécurité de l'information et de conformité à la confidentialité des données."
+      },
+      "workshops": {
+        "title": "Ateliers de Cybersécurité",
+        "description": "Ateliers spécialisés couvrant des domaines critiques comme la sécurité cloud, la protection réseau et l'intelligence des menaces."
+      },
+      "auditPrep": {
+        "title": "Préparation aux Services Avancés d'Audit",
+        "description": "Conseils d'experts pour s'assurer que votre organisation est préparée pour les audits avancés de sécurité et de confidentialité des données, tels que les audits de la Loi 25 (Qc)."
+      },
+      "viewAll": "Voir Tous les Services"
+    },
+    "about": {
+      "title": "Pourquoi Choisir Cyber Strategic Consulting?",
+      "description": "Avec des années d'expérience en cybersécurité et confidentialité des données, notre équipe d'experts fournit des solutions stratégiques pour protéger votre organisation contre les menaces évolutives.",
+      "learnMore": "En Savoir Plus Sur Nous"
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "À Propos de Cyber Strategic Consulting",
+      "subtitle": "Dédiés à fournir des solutions expertes de formation en cybersécurité et des conseils stratégiques aux organisations de toutes tailles."
+    },
+    "mission": {
+      "title": "Notre Mission",
+      "description": "Chez Cyber Strategic Consulting, notre mission est d'autonomiser les organisations avec les connaissances, outils et stratégies nécessaires pour protéger leurs actifs numériques et naviguer dans le paysage complexe de la cybersécurité et de la confidentialité des données."
+    },
+    "values": {
+      "title": "Nos Valeurs Fondamentales",
+      "excellence": {
+        "title": "Excellence",
+        "description": "Nous nous engageons à fournir des services et solutions de formation en cybersécurité de la plus haute qualité qui dépassent les normes de l'industrie et les attentes des clients."
+      },
+      "partnership": {
+        "title": "Partenariat",
+        "description": "Nous construisons des relations durables avec nos clients, travaillant en collaboration pour comprendre leurs besoins uniques et développer des stratégies de sécurité sur mesure."
+      },
+      "innovation": {
+        "title": "Innovation",
+        "description": "Nous évoluons continuellement nos approches et méthodologies pour rester en avance sur les menaces émergentes et fournir des solutions de formation en cybersécurité de pointe."
+      }
+    },
+    "team": {
+      "title": "Notre Équipe d'Experts",
+      "description": "Notre équipe se compose de professionnels certifiés en cybersécurité avec une vaste expérience dans diverses industries et domaines spécialisés de la sécurité de l'information et de la confidentialité des données.",
+      "cissp": {
+        "title": "Professionnels Certifiés en Sécurité de l'Information",
+        "description": "Notre équipe détient des certifications reconnues par l'industrie incluant CISSP, CISM et OSCP, assurant le plus haut niveau d'expertise en cybersécurité."
+      },
+      "privacy": {
+        "title": "Spécialistes en Confidentialité des Données",
+        "description": "Experts en réglementations mondiales de confidentialité des données incluant RGPD, Loi 25, et exigences de conformité spécifiques à l'industrie."
+      },
+      "architects": {
+        "title": "Architectes de Sécurité",
+        "description": "Professionnels qualifiés qui conçoivent et implémentent des cadres de sécurité robustes adaptés à l'infrastructure et aux exigences uniques de chaque organisation."
+      }
+    },
+    "approach": {
+      "title": "Notre Approche",
+      "description": "Nous croyons en une approche holistique de la cybersécurité qui combine l'expertise technique, la planification stratégique et la formation centrée sur l'humain pour créer des solutions de sécurité complètes qui protègent les organisations à tous les niveaux.",
+      "assess": {
+        "title": "Évaluer",
+        "description": "Évaluation complète de la posture de sécurité dans un périmètre défini"
+      },
+      "strategize": {
+        "title": "Stratégiser",
+        "description": "Développement de stratégies de sécurité sur mesure alignées avec les objectifs d'affaires"
+      },
+      "implement": {
+        "title": "Implémenter",
+        "description": "Exécution des mesures de sécurité et programmes de formation"
+      }
+    }
+  },
+  "services": {
+    "hero": {
+      "title": "Nos Services",
+      "subtitle": "Formation en cybersécurité sur mesure qui autonomise votre personnel à protéger les actifs numériques, maintenir la conformité réglementaire, et se préparer pour des services d'audit avancés comme les audits de confidentialité des données."
+    },
+    "infoSecurity": {
+      "title": "Formation en Sécurité de l'Information",
+      "description": "Programmes de formation complets conçus pour éduquer votre équipe sur les dernières menaces de sécurité de l'information et les meilleures pratiques de prévention et de réponse."
+    },
+    "dataPrivacy": {
+      "title": "Formation en Confidentialité des Données",
+      "description": "Formation spécialisée sur les réglementations de confidentialité des données telles que la Loi 25, RGPD, et exigences spécifiques à l'industrie pour s'assurer que votre organisation maintient la conformité."
+    },
+    "cloudSecurity": {
+      "title": "Ateliers de Sécurité Cloud",
+      "description": "Ateliers pratiques axés sur la sécurisation des environnements cloud, incluant AWS, Azure et Google Cloud, avec implémentation pratique des contrôles de sécurité."
+    },
+    "networkSecurity": {
+      "title": "Ateliers de Sécurité Réseau",
+      "description": "Ateliers techniques couvrant l'architecture de sécurité réseau, la détection des menaces, et l'implémentation de contrôles de sécurité robustes pour votre infrastructure (ex. DiD, WAF, HoneyPots)."
+    },
+    "compliance": {
+      "title": "Conformité en Confidentialité des Données",
+      "description": "Conseils d'experts sur l'implémentation de cadres de confidentialité des données et assurer la conformité continue avec les réglementations évolutives dans différentes juridictions."
+    },
+    "auditPrep": {
+      "title": "Préparation d'Audit Avancée",
+      "description": "Services de préparation complets pour les audits de sécurité, incluant l'analyse des lacunes et la planification de remédiation."
+    },
+    "custom": {
+      "title": "Besoin d'une Solution Personnalisée?",
+      "description": "Notre équipe d'experts peut développer des solutions de cybersécurité et de confidentialité des données sur mesure spécifiques aux exigences et défis uniques de votre organisation.",
+      "contact": "Contactez-nous pour des Solutions Personnalisées"
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "Nous Contacter",
+      "subtitle": "Avez-vous des questions sur nos services de formation ou voulez-vous discuter de vos besoins en cybersécurité? Contactez notre équipe d'experts."
+    },
+    "getInTouch": "Entrer en Contact",
+    "location": {
+      "title": "Notre Emplacement",
+      "address1": "1155 Metcalfe, #1500",
+      "address2": "Montréal, QC H3B 2V6"
+    },
+    "email": {
+      "title": "Courriel",
+      "address": "info@cybersc.ca"
+    },
+    "form": {
+      "title": "Envoyez-nous un Message",
+      "success": {
+        "title": "Merci pour votre message!",
+        "message": "Nous vous répondrons dès que possible.",
+        "button": "Envoyer un Autre Message"
+      },
+      "name": "Nom",
+      "email": "Courriel",
+      "subject": "Sujet",
+      "selectSubject": "Sélectionnez un sujet",
+      "subjects": {
+        "infoSecurity": "Formation en Sécurité de l'Information",
+        "dataPrivacy": "Formation en Confidentialité des Données",
+        "workshops": "Ateliers de Cybersécurité",
+        "auditPrep": "Préparation d'Audit Avancée",
+        "other": "Autre"
+      },
+      "message": "Message",
+      "send": "Envoyer le Message"
+    }
+  },
+  "footer": {
+    "navigation": "Navigation",
+    "services": "Services",
+    "infoSecurity": "Sécurité de l'Information",
+    "dataPrivacy": "Formation en Confidentialité des Données",
+    "workshops": "Ateliers de Cybersécurité",
+    "auditPrep": "Préparation d'Audit",
+    "rights": "© {{year}} Cyber Strategic Consulting. Tous droits réservés."
+  }
+}

@@ -1,7 +1,9 @@
 import { Link } from "react-router-dom"
+import { useTranslation } from "react-i18next"
 import "./Footer.css"
 
 const Footer = () => {
+  const { t } = useTranslation()
   const year = new Date().getFullYear()
 
   return (
@@ -15,18 +17,18 @@ const Footer = () => {
         <div className="footer-links">
           <div className="footer-link-wrapper">
             <div className="footer-link-items">
-              <h2>Navigation</h2>
-              <Link to="/">Home</Link>
-              <Link to="/services">Services</Link>
-              <Link to="/about">About Us</Link>
-              <Link to="/contact">Contact</Link>
+              <h2>{t("footer.navigation")}</h2>
+              <Link to="/">{t("nav.home")}</Link>
+              <Link to="/services">{t("nav.services")}</Link>
+              <Link to="/about">{t("nav.about")}</Link>
+              <Link to="/contact">{t("nav.contact")}</Link>
             </div>
             <div className="footer-link-items">
-              <h2>Services</h2>
-              <Link to="/services">Information Security</Link>
-              <Link to="/services">Data Privacy Training</Link>
-              <Link to="/services">Cyber Security Workshops</Link>
-              <Link to="/services">Audit Preparation</Link>
+              <h2>{t("footer.services")}</h2>
+              <Link to="/services">{t("footer.infoSecurity")}</Link>
+              <Link to="/services">{t("footer.dataPrivacy")}</Link>
+              <Link to="/services">{t("footer.workshops")}</Link>
+              <Link to="/services">{t("footer.auditPrep")}</Link>
             </div>
           </div>
         </div>
@@ -40,7 +42,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="website-rights">
-        <p>© {year} Cyber Strategic Consulting. All rights reserved.</p>
+        <p>{t("footer.rights", { year })}</p>
       </div>
     </footer>
   )
