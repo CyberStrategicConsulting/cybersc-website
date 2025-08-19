@@ -1,0 +1,176 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About Us",
+    "contact": "Contact"
+  },
+  "home": {
+    "hero": {
+      "title": "Empowering You To Securing Your Digital Footprint",
+      "subtitle": "Cyber Strategic Consulting provides expert cybersecurity training solutions, empowering your organization to secure its most valuable assets—its personnel.",
+      "ourServices": "Our Services",
+      "contactUs": "Contact Us"
+    },
+    "services": {
+      "title": "Our Services",
+      "subtitle": "Customized cybersecurity training that equips your team with the essentials and prepares them for advanced services like data audits—ensuring you're audit‑ready.",
+      "infoSecurity": {
+        "title": "Information Security & Data Privacy Training",
+        "description": "Comprehensive training programs to educate your team on best practices for information security and data privacy compliance."
+      },
+      "workshops": {
+        "title": "Cyber Security Workshops",
+        "description": "Specialized workshops covering critical areas like cloud security, network protection, and threat intelligence."
+      },
+      "auditPrep": {
+        "title": "Advanced Services Audit Preparation",
+        "description": "Expert guidance to ensure your organization is prepared for advanced security and data privacy audits, such as Law 25 (Qc) Audits."
+      },
+      "viewAll": "View All Services"
+    },
+    "about": {
+      "title": "Why Choose Cyber Strategic Consulting?",
+      "description": "With years of experience in cybersecurity and data privacy, our team of experts provides strategic solutions to protect your organization from evolving threats.",
+      "learnMore": "Learn More About Us"
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "About Cyber Strategic Consulting",
+      "subtitle": "Dedicated to providing expert cybersecurity training solutions and strategic guidance to organizations of all sizes."
+    },
+    "mission": {
+      "title": "Our Mission",
+      "description": "At Cyber Strategic Consulting, our mission is to empower organizations with the knowledge, tools, and strategies needed to protect their digital assets and navigate the complex landscape of cybersecurity and data privacy."
+    },
+    "values": {
+      "title": "Our Core Values",
+      "excellence": {
+        "title": "Excellence",
+        "description": "We are committed to delivering the highest quality cybersecurity training services and solutions that exceed industry standards and client expectations."
+      },
+      "partnership": {
+        "title": "Partnership",
+        "description": "We build lasting relationships with our clients, working collaboratively to understand their unique needs and develop tailored security strategies."
+      },
+      "innovation": {
+        "title": "Innovation",
+        "description": "We continuously evolve our approaches and methodologies to stay ahead of emerging threats to provide cutting-edge cybersecurity trianing solutions."
+      }
+    },
+    "team": {
+      "title": "Our Expert Team",
+      "description": "Our team consists of certified cybersecurity professionals with extensive experience across various industries and specialized domains within information security and data privacy.",
+      "cissp": {
+        "title": "Certified Information Security Professionals",
+        "description": "Our team holds industry-recognized certifications including CISSP, CISM, and OSCP, ensuring the highest level of expertise in cybersecurity."
+      },
+      "privacy": {
+        "title": "Data Privacy Specialists",
+        "description": "Experts in global data privacy regulations including GDPR, Law 25, and industry-specific compliance requirements."
+      },
+      "architects": {
+        "title": "Security Architects",
+        "description": "Skilled professionals who design and implement robust security frameworks tailored to each organization's unique infrastructure and requirements."
+      }
+    },
+    "approach": {
+      "title": "Our Approach",
+      "description": "We believe in a holistic approach to cybersecurity that combines technical expertise, strategic planning, and human-centered training to create comprehensive security solutions that protect organizations at every level.",
+      "assess": {
+        "title": "Assess",
+        "description": "Comprehensive security posture assessment within a defined scope"
+      },
+      "strategize": {
+        "title": "Strategize",
+        "description": "Development of tailored security strategies aligned with business objectives"
+      },
+      "implement": {
+        "title": "Implement",
+        "description": "Execution of security measures and training programs"
+      }
+    }
+  },
+  "services": {
+    "hero": {
+      "title": "Our Services",
+      "subtitle": "Tailored cybersecurity training that empowers your personnel to safeguard digital assets, maintain regulatory compliance, and prepare for advanced audit services like data privacy audits."
+    },
+    "infoSecurity": {
+      "title": "Information Security Training",
+      "description": "Comprehensive training programs designed to educate your team on the latest information security threats and best practices for prevention and response."
+    },
+    "dataPrivacy": {
+      "title": "Data Privacy Training",
+      "description": "Specialized training on data privacy regulations such as Law 25, GDPR, and industry-specific requirements to ensure your organization maintains compliance."
+    },
+    "cloudSecurity": {
+      "title": "Cloud Security Workshops",
+      "description": "Hands-on workshops focused on securing cloud environments, including AWS, Azure, and Google Cloud, with practical implementation of security controls."
+    },
+    "networkSecurity": {
+      "title": "Network Security Workshops",
+      "description": "Technical workshops covering network security architecture, threat detection, and implementation of robust security controls for your infrastructure (e.g. DiD, WAF, HoneyPots)."
+    },
+    "compliance": {
+      "title": "Data Privacy Compliance",
+      "description": "Expert guidance on implementing data privacy frameworks and ensuring ongoing compliance with evolving regulations across different jurisdictions."
+    },
+    "auditPrep": {
+      "title": "Advanced Audit Preparation",
+      "description": "Comprehensive preparation services for security audits, including gap analysis and remediation planning."
+    },
+    "custom": {
+      "title": "Need a Customized Solution?",
+      "description": "Our team of experts can develop tailored cybersecurity and data privacy solutions specific to your organization's unique requirements and challenges.",
+      "contact": "Contact Us for Custom Solutions"
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "Contact Us",
+      "subtitle": "Have questions about our training services or want to discuss your cybersecurity needs? Reach out to our team of experts."
+    },
+    "getInTouch": "Get in Touch",
+    "location": {
+      "title": "Our Location",
+      "address1": "1155 Metcalfe, #1500",
+      "address2": "Montreal, QC H3B 2V6"
+    },
+    "email": {
+      "title": "Email",
+      "address": "info@cybersc.ca"
+    },
+    "form": {
+      "title": "Send Us a Message",
+      "success": {
+        "title": "Thank you for your message!",
+        "message": "We'll get back to you as soon as possible.",
+        "button": "Send Another Message"
+      },
+      "name": "Name",
+      "email": "Email",
+      "subject": "Subject",
+      "selectSubject": "Select a subject",
+      "subjects": {
+        "infoSecurity": "Information Security Training",
+        "dataPrivacy": "Data Privacy Training",
+        "workshops": "Cyber Security Workshops",
+        "auditPrep": "Advanced Audit Preparation",
+        "other": "Other"
+      },
+      "message": "Message",
+      "send": "Send Message"
+    }
+  },
+  "footer": {
+    "navigation": "Navigation",
+    "services": "Services",
+    "infoSecurity": "Information Security",
+    "dataPrivacy": "Data Privacy Training",
+    "workshops": "Cyber Security Workshops",
+    "auditPrep": "Audit Preparation",
+    "rights": "© {{year}} Cyber Strategic Consulting. All rights reserved."
+  }
+}

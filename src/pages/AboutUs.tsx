@@ -1,115 +1,87 @@
+import { useTranslation } from "react-i18next"
 import "./AboutUs.css"
 
 const AboutUs = () => {
+  const { t } = useTranslation()
+
   return (
     <div className="about-page">
       <section className="about-hero">
-        <h1>About Cyber Strategic Consulting</h1>
-        <p>
-          Dedicated to providing expert cybersecurity training solutions and strategic guidance to organizations of all sizes.
-        </p>
+        <h1>{t("about.hero.title")}</h1>
+        <p>{t("about.hero.subtitle")}</p>
       </section>
 
       <section className="about-mission">
         <div className="mission-content">
-          <h2>Our Mission</h2>
-          <p>
-            At Cyber Strategic Consulting, our mission is to empower organizations with the knowledge, tools, and
-            strategies needed to protect their digital assets and navigate the complex landscape of cybersecurity and
-            data privacy.
-          </p>
+          <h2>{t("about.mission.title")}</h2>
+          <p>{t("about.mission.description")}</p>
         </div>
       </section>
 
       <section className="about-values">
-        <h2>Our Core Values</h2>
+        <h2>{t("about.values.title")}</h2>
         <div className="values-container">
           <div className="value-card">
             <i className="fas fa-shield-alt value-icon"></i>
-            <h3>Excellence</h3>
-            <p>
-              We are committed to delivering the highest quality cybersecurity training services and solutions that exceed
-              industry standards and client expectations.
-            </p>
+            <h3>{t("about.values.excellence.title")}</h3>
+            <p>{t("about.values.excellence.description")}</p>
           </div>
           <div className="value-card">
             <i className="fas fa-users value-icon"></i>
-            <h3>Partnership</h3>
-            <p>
-              We build lasting relationships with our clients, working collaboratively to understand their unique needs
-              and develop tailored security strategies.
-            </p>
+            <h3>{t("about.values.partnership.title")}</h3>
+            <p>{t("about.values.partnership.description")}</p>
           </div>
           <div className="value-card">
             <i className="fas fa-lightbulb value-icon"></i>
-            <h3>Innovation</h3>
-            <p>
-              We continuously evolve our approaches and methodologies to stay ahead of emerging threats to provide
-              cutting-edge cybersecurity trianing solutions.
-            </p>
+            <h3>{t("about.values.innovation.title")}</h3>
+            <p>{t("about.values.innovation.description")}</p>
           </div>
         </div>
       </section>
 
       <section className="about-team">
-        <h2>Our Expert Team</h2>
-        <p>
-          Our team consists of certified cybersecurity professionals with extensive experience across various industries
-          and specialized domains within information security and data privacy.
-        </p>
+        <h2>{t("about.team.title")}</h2>
+        <p>{t("about.team.description")}</p>
         <div className="team-expertise">
           <div className="expertise-item">
-            <h3>Certified Information Security Professionals</h3>
-            <p>
-              Our team holds industry-recognized certifications including CISSP, CISM, and OSCP, ensuring the highest
-              level of expertise in cybersecurity.
-            </p>
+            <h3>{t("about.team.cissp.title")}</h3>
+            <p>{t("about.team.cissp.description")}</p>
           </div>
           <div className="expertise-item">
-            <h3>Data Privacy Specialists</h3>
-            <p>
-              Experts in global data privacy regulations including GDPR, Law 25, and industry-specific compliance
-              requirements.
-            </p>
+            <h3>{t("about.team.privacy.title")}</h3>
+            <p>{t("about.team.privacy.description")}</p>
           </div>
           <div className="expertise-item">
-            <h3>Security Architects</h3>
-            <p>
-              Skilled professionals who design and implement robust security frameworks tailored to each organization's
-              unique infrastructure and requirements.
-            </p>
+            <h3>{t("about.team.architects.title")}</h3>
+            <p>{t("about.team.architects.description")}</p>
           </div>
         </div>
       </section>
 
       <section className="about-approach">
         <div className="approach-content">
-          <h2>Our Approach</h2>
-          <p>
-            We believe in a holistic approach to cybersecurity that combines technical expertise, strategic planning,
-            and human-centered training to create comprehensive security solutions that protect organizations at every
-            level.
-          </p>
+          <h2>{t("about.approach.title")}</h2>
+          <p>{t("about.approach.description")}</p>
           <div className="approach-steps">
             <div className="step">
               <span className="step-number">1</span>
               <div className="step-content">
-                <h3>Assess</h3>
-                <p>Comprehensive security posture assessment within a defined scope</p>
+                <h3>{t("about.approach.assess.title")}</h3>
+                <p>{t("about.approach.assess.description")}</p>
               </div>
             </div>
             <div className="step">
               <span className="step-number">2</span>
               <div className="step-content">
-                <h3>Strategize</h3>
-                <p>Development of tailored security strategies aligned with business objectives</p>
+                <h3>{t("about.approach.strategize.title")}</h3>
+                <p>{t("about.approach.strategize.description")}</p>
               </div>
             </div>
             <div className="step">
               <span className="step-number">3</span>
               <div className="step-content">
-                <h3>Implement</h3>
-                <p>Execution of security measures and training programs</p>
+                <h3>{t("about.approach.implement.title")}</h3>
+                <p>{t("about.approach.implement.description")}</p>
               </div>
             </div>
           </div>

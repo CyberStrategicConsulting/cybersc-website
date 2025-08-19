@@ -1,22 +1,22 @@
 import { Link } from "react-router-dom"
+import { useTranslation } from "react-i18next"
 import "./Home.css"
 
 const Home = () => {
+  const { t } = useTranslation()
+
   return (
     <div className="home">
       <section className="hero">
         <div className="hero-content">
-          <h1>Empowering You To Securing Your Digital Footprint</h1>
-          <p>
-          Cyber Strategic Consulting provides expert cybersecurity training solutions,
-          empowering your organization to secure its most valuable assets—its personnel.
-          </p>
+          <h1>{t("home.hero.title")}</h1>
+          <p>{t("home.hero.subtitle")}</p>
           <div className="hero-btns">
             <Link to="/services" className="btn btn-primary">
-              Our Services
+              {t("home.hero.ourServices")}
             </Link>
             <Link to="/contact" className="btn btn-outline">
-              Contact Us
+              {t("home.hero.contactUs")}
             </Link>
           </div>
         </div>
@@ -24,58 +24,45 @@ const Home = () => {
 
       <section className="featured-services">
         <div className="section-heading">
-          <h2>Our Services</h2>
-          <p>Customized cybersecurity training that equips your team with the essentials and prepares them
-            for advanced services like data audits—ensuring you’re audit‑ready.</p>
+          <h2>{t("home.services.title")}</h2>
+          <p>{t("home.services.subtitle")}</p>
         </div>
         <div className="services-container">
           <div className="service-card">
             <div className="service-icon">
               <i className="fas fa-shield-alt"></i>
             </div>
-            <h3>Information Security & Data Privacy Training</h3>
-            <p>
-              Comprehensive training programs to educate your team on best practices for information security and data
-              privacy compliance.
-            </p>
+            <h3>{t("home.services.infoSecurity.title")}</h3>
+            <p>{t("home.services.infoSecurity.description")}</p>
           </div>
           <div className="service-card">
             <div className="service-icon">
               <i className="fas fa-laptop-code"></i>
             </div>
-            <h3>Cyber Security Workshops</h3>
-            <p>
-              Specialized workshops covering critical areas like cloud security, network protection, and threat
-              intelligence.
-            </p>
+            <h3>{t("home.services.workshops.title")}</h3>
+            <p>{t("home.services.workshops.description")}</p>
           </div>
           <div className="service-card">
             <div className="service-icon">
               <i className="fas fa-user-lock"></i>
             </div>
-            <h3>Advanced Services Audit Preparation</h3>
-            <p>
-              Expert guidance to ensure your organization is prepared for advanced security and data privacy audits,
-              such as Law 25 (Qc) Audits.
-            </p>
+            <h3>{t("home.services.auditPrep.title")}</h3>
+            <p>{t("home.services.auditPrep.description")}</p>
           </div>
         </div>
         <div className="services-cta">
           <Link to="/services" className="btn btn-secondary">
-            View All Services
+            {t("home.services.viewAll")}
           </Link>
         </div>
       </section>
 
       <section className="about-preview">
         <div className="about-content">
-          <h2>Why Choose Cyber Strategic Consulting?</h2>
-          <p>
-            With years of experience in cybersecurity and data privacy, our team of experts provides strategic solutions
-            to protect your organization from evolving threats.
-          </p>
+          <h2>{t("home.about.title")}</h2>
+          <p>{t("home.about.description")}</p>
           <Link to="/about" className="btn btn-outline">
-            Learn More About Us
+            {t("home.about.learnMore")}
           </Link>
         </div>
       </section>

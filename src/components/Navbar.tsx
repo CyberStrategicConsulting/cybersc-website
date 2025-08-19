@@ -3,10 +3,13 @@
 import { useState } from "react"
 import { Link, useLocation } from "react-router-dom"
 import "./Navbar.css"
+import { useTranslation } from "react-i18next"
+import LanguageSwitcher from "./LanguageSwitcher"
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const location = useLocation()
+  const { t } = useTranslation()
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen)
@@ -31,7 +34,7 @@ const Navbar = () => {
         <ul className={isMenuOpen ? "nav-menu active" : "nav-menu"}>
           <li className="nav-item">
             <Link to="/" className={`nav-link ${location.pathname === "/" ? "active" : ""}`} onClick={closeMenu}>
-              Home
+              {t("nav.home")}
             </Link>
           </li>
           <li className="nav-item">
@@ -40,7 +43,7 @@ const Navbar = () => {
               className={`nav-link ${location.pathname === "/services" ? "active" : ""}`}
               onClick={closeMenu}
             >
-              Services
+              {t("nav.services")}
             </Link>
           </li>
           <li className="nav-item">
@@ -49,7 +52,7 @@ const Navbar = () => {
               className={`nav-link ${location.pathname === "/about" ? "active" : ""}`}
               onClick={closeMenu}
             >
-              About Us
+              {t("nav.about")}
             </Link>
           </li>
           <li className="nav-item">
@@ -58,8 +61,11 @@ const Navbar = () => {
               className={`nav-link ${location.pathname === "/contact" ? "active" : ""}`}
               onClick={closeMenu}
             >
-              Contact
+              {t("nav.contact")}
             </Link>
+          </li>
+          <li className="nav-item">
+            <LanguageSwitcher />
           </li>
         </ul>
       </div>
